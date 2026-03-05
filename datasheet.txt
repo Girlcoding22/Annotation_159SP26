@@ -1,0 +1,27 @@
+Datasheet
+
+Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+No
+
+Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data), from the dataset?
+No
+
+Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?
+No
+
+If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
+The datacard of the huggingface dataset stated that the data are “carefully chosen argumentative texts suitable for exercising argument mapping and logical analysis.” 
+The specific subset we chose is sourced from different editions of "Pros and Cons - A Debater's Handbook". This is chosen due to the abundance of shorter texts, and each document includes one main argument per text. 
+For the purpose of this annotation project, we would sample the first 500 data points with shortest lengths from https://huggingface.co/datasets/DebateLabKIT/arguments-and-debates/viewer/arguments-pros-and-cons-2010/.
+
+Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
+No. The data given in this file doesn’t show the fully raw data. It only shows post-processed data. It is a quick summary of the argument, along with a background of what it is about.
+
+Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
+There are no issues within the dataset provided. The dataset has a license(Open Data Commons Attribution License (ODC-By) v1.0 license), and was accessed from sources that are neutral and show no biases (stereotypes).
+
+Are there tasks for which the dataset should not be used?
+The dataset should not be used to train a decision-making model or for fact-checking.
+
+Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
+This collection is released under the Open Data Commons Attribution License (ODC-By) v1.0 license.
